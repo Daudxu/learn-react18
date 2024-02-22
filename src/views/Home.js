@@ -1,6 +1,10 @@
 import '../App.css'
 import logo from '../logo.svg';
+import { useNavigate } from 'react-router-dom'
+
 function Home() {
+  const navigate = useNavigate()
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +21,14 @@ function Home() {
           Learn React
         </a>
       </header>
+      <div>
+        <hr/>
+        <button onClick={()=>{
+            navigate(-1)
+        }}>
+            回退
+        </button>
+      </div>
     </div>
   );
 }

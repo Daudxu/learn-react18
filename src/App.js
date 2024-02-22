@@ -1,4 +1,4 @@
-import { Routes, Route, Link, NavLink, Navigate } from 'react-router-dom'
+import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
 
 import './App.css';
 import Home from './views/Home'
@@ -21,7 +21,7 @@ function App() {
          <Route path="/" element={<Navigate to="/home" replace={false} />} />
         {/* 404页面处理 */}
         <Route path="*" element={<NoPage/>} />
-        
+
       </Routes>
     </div>
   );
