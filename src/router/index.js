@@ -1,6 +1,7 @@
 import { Navigate } from 'react-router-dom'
 
 import Home from '../views/Home'
+import First from '../views/First'
 import About from '../views/About'
 import Detail from '../views/Detail'
 import Admin from '../views/Admin'
@@ -12,6 +13,10 @@ const router = [
   {
     path: '/home',
     element: <Home />
+  },
+  {
+    path: '/first',
+    element: <First />
   },
   {
     path: '/about',
