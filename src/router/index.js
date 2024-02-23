@@ -7,6 +7,7 @@ import Detail from '../views/Detail'
 import Admin from '../views/Admin'
 import Welcome from '../views/Welcome'
 import User from '../views/User'
+import Greeting from '../views/Greeting'
 
 const router = [
   { path: '/', element: <Navigate to="/home" replace /> },
@@ -17,6 +18,10 @@ const router = [
   {
     path: '/first',
     element: <First />
+  },
+  {
+    path: '/greeting',
+    element: <Greeting />
   },
   {
     path: '/about',

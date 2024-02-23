@@ -2,10 +2,24 @@
   text-align: center;
 }
 
+.cl-nav{
+  display: flex;
+  flex-direction: column
+}
+.cl-nav a {
+  font-size: 18px;
+  text-decoration: none;
+  text-align: left;
+  line-height: 22px;
+  color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  text-align: center;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,7 +28,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
