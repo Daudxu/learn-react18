@@ -8,6 +8,7 @@ import Admin from '../views/Admin'
 import Welcome from '../views/Welcome'
 import User from '../views/User'
 import Greeting from '../views/Greeting'
+import BookList from '../views/BookList.js'
 
 const router = [
   { path: '/', element: <Navigate to="/home" replace /> },
@@ -22,6 +23,10 @@ const router = [
   {
     path: '/greeting',
     element: <Greeting />
+  },
+  {
+    path: '/bookList',
+    element: <BookList />
   },
   {
     path: '/about',

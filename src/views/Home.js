@@ -16,6 +16,7 @@ function Home() {
           <NavLink to="/home" className="cl-a">首页</NavLink>
           <NavLink to="/first">第一个组件</NavLink>
           <NavLink to="/greeting">Greeting</NavLink>
+          <NavLink to="/Book">Book</NavLink>
           <NavLink to="/about">关于</NavLink>
           <NavLink to="/admin">后台</NavLink>
         </div>
